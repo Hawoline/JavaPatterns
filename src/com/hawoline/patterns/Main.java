@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Main {
+public class Main implements Test {
     private static Calendar dateCreator = Calendar.getInstance();
     public static void main(String[] args) {
         testBuilder();
@@ -18,7 +18,7 @@ public class Main {
 
         Address address = addressFactory.createAddress();
         PhoneNumber phoneNumber = addressFactory.createPhoneNumber();
-
+        
         System.out.println(address.getFullAddress());
         System.out.println(phoneNumber.getCountryCode());
     }
