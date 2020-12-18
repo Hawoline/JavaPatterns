@@ -1,4 +1,4 @@
-package com.hawoline.patterns.abstractfactory;
+package com.hawoline.patterns.creational.abstractfactory;
 
 public class FrenchPhoneNumber extends PhoneNumber {
     private static final String COUNTRY_CODE = "33";

@@ -1,4 +1,4 @@
-package com.hawoline.patterns.factory;
+package com.hawoline.patterns.creational.factory;
 
 import javax.swing.*;
 import java.awt.*;

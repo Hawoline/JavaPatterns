@@ -1,4 +1,4 @@
-package com.hawoline.patterns.builder;
+package com.hawoline.patterns.creational.builder;
 
 public class InformationRequiredException extends Exception {
     private static final String MESSAGE = "Appointment cannot be created because further information is required. Count: ";

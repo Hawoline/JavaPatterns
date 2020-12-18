@@ -1,4 +1,4 @@
-package com.hawoline.patterns.abstractfactory;
+package com.hawoline.patterns.creational.abstractfactory;
 
 public class FrenchAddressFactory implements AddressFactory {
     @Override

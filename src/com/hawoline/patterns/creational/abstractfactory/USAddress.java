@@ -1,4 +1,4 @@
-package com.hawoline.patterns.abstractfactory;
+package com.hawoline.patterns.creational.abstractfactory;
 
 public class USAddress extends Address {
     private static final String COUNTRY = "UNITED STATES";

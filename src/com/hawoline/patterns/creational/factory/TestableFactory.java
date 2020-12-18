@@ -1,16 +1,18 @@
-package com.hawoline.patterns;
+package com.hawoline.patterns.creational.factory;
 
-import com.hawoline.patterns.factory.Contact;
-import com.hawoline.patterns.factory.ItemEditor;
+import com.hawoline.patterns.Testable;
+import com.hawoline.patterns.creational.factory.Contact;
+import com.hawoline.patterns.creational.factory.ItemEditor;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class TestFactory implements Test {
+public class TestableFactory implements Testable {
 
-    public static void main(String[] args) {
+    @Override
+    public void test() {
         JFrame frame = new JFrame("Test Factory");
         Contact contact = new Contact();
         ItemEditor contactEditor = contact.getEditor();

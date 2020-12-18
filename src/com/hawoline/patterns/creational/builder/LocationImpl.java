@@ -1,4 +1,4 @@
-package com.hawoline.patterns.builder;
+package com.hawoline.patterns.creational.builder;
 
 public class LocationImpl implements Location {
     private String location;
