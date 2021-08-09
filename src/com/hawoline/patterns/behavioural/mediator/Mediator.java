@@ -1,0 +1,17 @@
+package com.hawoline.patterns.behavioural.mediator;
+
+import javax.swing.*;
+
+public interface Mediator {
+    void addNewNote();
+    void deleteNote();
+    void getInfoFromList(Note note);
+    void saveChanges();
+    void markNote();
+    void clear();
+    void sendToFilter(ListModel listModel);
+    void setElementsList(ListModel list);
+    void registerComponent(Component component);
+    void hideElements(boolean isHidden);
+    void createGui();
+}
