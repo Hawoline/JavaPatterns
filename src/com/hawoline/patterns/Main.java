@@ -1,10 +1,11 @@
 package com.hawoline.patterns;
 
-import com.hawoline.patterns.behavioural.chainofresponsibility.Demo;
-import com.hawoline.patterns.creational.prototype.TestablePrototype;
+
+import com.hawoline.patterns.behavioural.command.Editor;
 
 public class Main {
     public static void main(String[] args) {
-        Demo.init();
+        Editor editor = new Editor();
+        editor.init();
     }
 }
