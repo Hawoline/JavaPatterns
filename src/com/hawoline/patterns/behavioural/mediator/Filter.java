@@ -29,11 +29,11 @@ public class Filter extends JTextField implements Component {
             return;
         }
 
-        ArrayList<Note> notes = new ArrayList<Note>();
+        ArrayList<Note> notes = new ArrayList<>();
         for (int i = 0; i < mListModel.getSize(); i++) {
             notes.add((Note) mListModel.getElementAt(i));
         }
-        DefaultListModel<Note> listModel = new DefaultListModel<Note>();
+        DefaultListModel<Note> listModel = new DefaultListModel<>();
         for (Note note : notes) {
             if (note.getName().contains(start)) {
                 listModel.addElement(note);

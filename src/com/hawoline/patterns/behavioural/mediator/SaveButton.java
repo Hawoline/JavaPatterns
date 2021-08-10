@@ -6,8 +6,8 @@ import java.awt.event.ActionEvent;
 public class SaveButton extends JButton implements Component {
     private Mediator mMediator;
 
-    public SaveButton(String text) {
-        super(text);
+    public SaveButton() {
+        super("Save");
     }
 
     @Override

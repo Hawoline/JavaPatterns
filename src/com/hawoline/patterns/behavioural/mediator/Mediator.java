@@ -3,7 +3,7 @@ package com.hawoline.patterns.behavioural.mediator;
 import javax.swing.*;
 
 public interface Mediator {
-    void addNewNote();
+    void addNewNote(Note note);
     void deleteNote();
     void getInfoFromList(Note note);
     void saveChanges();
